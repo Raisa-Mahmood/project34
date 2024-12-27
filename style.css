@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: lightcyan;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select,
+button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkturquoise;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.transactions {
+    margin-top: 1rem;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid seashell;
+}
+
+.income {
+    color: palegreen;
+}
+
+.expense {
+    color: maroon;
+}
